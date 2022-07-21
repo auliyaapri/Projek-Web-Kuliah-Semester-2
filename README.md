@@ -1,4 +1,4 @@
-# Projek Web Kelas Kuliah
+# Projek Web Kuliah Semester 2 Web Programming
 
 Tugas Kuliah Kelompok Membuat Website dengan Tema Restoran
 
