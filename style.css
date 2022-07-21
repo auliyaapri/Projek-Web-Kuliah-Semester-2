@@ -1,0 +1,667 @@
+/* Untuk ubah font */
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 5rem 7%;
+}
+/* ==== Navbar === */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 10%;
+  background-color: lightblue;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+header .logo img {
+  width: 7rem;
+}
+.navbar a {
+  text-decoration: none;
+  margin: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+.navbar a:hover {
+  color: red;
+}
+.navbar a.active{
+  color: orangered;
+
+  
+}
+#menu-bar {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+.contact-navbar{
+  background: white;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+/* ======== Navbar ======== */
+/* ======== Home ======== */
+
+.home {
+  background-color: #f8f9fb;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+ }
+
+.home .row .content .about_title {
+  font-size: 18px;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+
+.home .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home .row .image {
+  flex: 1 1 36rem;
+}
+
+.home .row .image img {
+  width: 100%;
+}
+
+.home .row .content {
+  /* background: red; */
+  flex: 1 1 45rem;
+  padding: 2rem;
+}
+
+.home .row .content h3 {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 20px;
+  font-family: 'Lobster', cursive;
+  font-weight: 100;
+}
+
+.home .row .content p {
+  line-height: 1.9em;
+  color: #777;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.home .btn_home {
+  text-decoration: none;
+  color: white;
+  background-color: #333333;
+  padding: 10px 20px;
+  /* f85a40 */
+}
+
+.home .btn_home2 {
+  text-decoration: none;
+  color: black;
+  background-color: lightblue;
+  padding: 10px 20px;
+  /* f85a40 */
+}
+/* ======== Home ======== */
+
+/* ======== Abou ======== */
+.about h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+/* .about .garis {
+  text-align: center;
+  border-bottom: 3px solid bla;
+  width: 25%;
+} */
+.about .row {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about .row .content h4 {
+  color: #353c4e;
+  font-size: 32px;
+}
+.about .row .content p {
+  width: 100%;
+  font-size: 17px;
+  font-weight: normal;
+  color: #555;
+  margin-top: 24px;
+  line-height: 1.9em;
+}
+.about .row .content {
+  /* background: red; */
+  flex: 1 1 35rem;
+  padding: 2rem;
+  /* background-color: #f85a40; */
+}
+
+.about .row .image img {
+  width: 100%;
+}
+.about .row .image img {
+  width: 250px;
+  height: 300px;
+}
+.about .row .image {
+  flex: 1 1 11rem;
+  padding: 2rem;
+}
+.about .row .icon {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: -1.7rem;
+}
+.about .row .text {
+  display: flex;
+  align-items: center;
+}
+.about .row .text h5 {
+  margin-left: 1.5rem;
+}
+.about .row .icon img {
+  background: #f85a40;
+  font-size: 2rem;
+  padding: 18px;
+  border-radius: 50%;
+  margin-left: 1.7rem;
+}
+
+/* ==== Baris 2 */
+.about h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.about .garis {
+  text-align: center;
+  border-bottom: 3px solid lightblue;
+  width:15%;
+}
+.about .row2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about .row2 .content h4 {
+  color: #353c4e;
+  font-size: 32px;
+}
+.about .row2 .content p {
+  width: 100%;
+  font-size: 17px;
+  font-weight: normal;
+  color: #555;
+  margin-top: 24px;
+  line-height: 1.9em;
+}
+.about .row2 .content {
+  /* background: red; */
+  flex: 1 1 35rem;
+  padding: 2rem;
+  /* background-color: #f85a40; */
+}
+
+.about .row2 .image img {
+  width: 100%;
+}
+
+.about .row2 .image img {
+  width: 500px;
+  height: 300px;
+}
+.about .row2 .image {
+  flex: 1 1 11rem;
+  padding: 2rem;
+}
+
+.about .row2 .text h5 {
+  margin-left: 1.5rem;
+}
+
+/* ======== About ======== */
+
+/* ======== Our Menu dan Yang di file MENU ======== */
+.menu h1 {
+  font-size: 2rem;
+}
+.menu .garis {
+  text-align: center;
+  border-bottom: 3px solid lightblue;
+  width:15%;
+}
+.menu .row {
+  margin-top: 2rem;
+  line-height: 1.9;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menu .row .col {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 2rem;
+  margin: 2rem;
+}
+.menu .row .col:hover {
+  background-color: burlywood;
+  cursor: pointer;
+}
+.menu .box a {
+  padding: 5px 50px;
+  background-color: #5F9EA0;
+  color: white;
+  text-decoration: none;
+}
+.menu .row .btn {
+  color: black;
+  padding: 5px 50px;
+  border: 2px solid black;
+
+  text-decoration: none;
+  border-radius: 200px;
+}
+.menu .row .btn:hover {
+  background-color: orange;
+}
+
+/* ======== Our Menu ======== */
+
+/* ======== What We Do ======== */
+.whatwe_do {
+  background-color: #f8f9fb;
+}
+.whatwe_do h1 {
+  font-size: 2rem;
+}
+.whatwe_do .garis {
+  text-align: center;
+  border-bottom: 3px solid lightblue;
+  width:15%;
+}
+.whatwe_do .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.whatwe_do .col {
+  margin-top: 2rem;
+  flex: 1 1 11rem;
+  padding: 2rem;
+}
+.whatwe_do .col .box {
+  background: white;
+  padding: 50px 40px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.whatwe_do .col .box h1 {
+  font-size: 25px;
+}
+.whatwe_do .col .box img {
+  margin-top: 30px;
+  width: 50px;
+  line-height: 1.9em;
+}
+/* ======== What We Do ======== */
+
+/* ======== Testimonials ======== */
+.testimonials {
+  background-color: white;
+}
+.testimonials h1 {
+  font-size: 2rem;
+}
+.testimonials .garis {
+  text-align: center;
+  border-bottom: 3px solid lightblue;
+  width:15%;
+}
+.testimonials .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.testimonials .col {
+  margin-top: 2rem;
+  flex:11rem;
+  margin: 2rem;
+}
+.testimonials .col .box {
+  color: white;
+  width: 100%;
+  height: 50%;
+  padding: 1rem;
+  background-color: rebeccapurple;
+}
+.testimonials .col .box h1 {
+  font-size: 25px;
+}
+.testimonials .col .box p {
+  margin-top: 16px;
+  line-height: 1.9em;
+}
+.testimonials .col .img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+.testimonials .col .img h3 {
+  margin: 1rem;
+}
+.testimonials .col .img img {
+  border-radius: 50%;
+}
+/* ======== Our ======== */
+
+/* ======== Our ======== */
+
+/* ======== Testimonials ======== */
+
+.banner {
+  background-color: lightblue;
+}
+.banner h1 {
+  font-size: 2rem;
+  color: white;
+}
+.banner p {
+  color: white;
+  font-size: 1rem;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
+footer {
+  background: #333333;
+  color: white;
+  padding: 2rem;
+}
+footer h1{
+  font-size: 1.5rem;
+}
+footer .row {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+footer .row .col {
+  flex: 20rem;
+  margin: 1rem;
+}
+footer .row .col .baris-1{
+  display: flex;
+  align-items: center;
+  margin-left: -1rem;
+}
+footer .row .col .baris-1 img{
+  margin-right: 1rem;
+}
+
+footer .row .col p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+footer .row .col p img{
+  margin-left: 20px;
+}
+
+
+/* ========================= Ini Yang di File About ======================== */
+.about_atas {
+  margin-top: 5rem;
+  background-image: url(./asset/img/about_atas.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+}
+
+/* === Our Chef === */
+.chef h1 {
+  font-size: 2rem;
+}
+.chef h3{
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.chef .garis {
+  text-align: center;
+  border-bottom: 3px solid lightblue;
+  width:15%;
+}
+.chef .row .col {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+  
+}
+.chef .row .col .img {
+  margin-left: 2rem;
+  text-align: center;
+
+}
+
+.chef .row .col .img img:hover {
+  transform: scale(1.1);
+  transition: .9s;
+
+}
+.chef .row .icon {
+  margin-top: 10px;
+}
+.chef .row .icon img {
+  width: 20px;
+  margin-left: 7px;
+  
+}
+/* ========================= Ini Yang di File Services ======================== */
+.sevice h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.sevice .garis {
+  text-align: center;
+  border-bottom: 3px solid red;
+  width: 25%;
+}
+.sevice .row {
+  display: flex;
+  align-items: center;
+  
+}
+.sevice .row .col {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.sevice .row .col .img {
+  background: red;
+  padding: 18px;
+  border-radius: 50%;
+}
+.sevice .row .col .teks {
+  line-height: 1.9;
+  margin-left: 2rem;
+}
+/* book table */
+.book h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.book .garis {
+  text-align: center;
+  border-bottom: 3px solid lightblue;
+  width: 25%;
+}
+.book .row2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.book-button {
+  background: #000;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+.book-button:hover{
+  background: lightblue;
+}
+.book .row2 .content h4 {
+  color: #353c4e;
+  font-size: 32px;
+}
+.book .row2 .content p {
+  width: 100%;
+  font-size: 17px;
+  font-weight: normal;
+  color: #555;
+  margin-top: 24px;
+  line-height: 1.9em;
+  margin-bottom: 20px;
+}
+.book .row2 .content {
+  /* background: red; */
+  flex: 1 1 35rem;
+  padding: 2rem;
+  /* background-color: #f85a40; */
+}
+.book .row2 .image img {
+  width: 100%;
+}
+
+.book .row2 .image img {
+  width: 500px;
+  height: 300px;
+}
+.book .row2 .image {
+  flex: 1 1 11rem;
+  padding: 2rem;
+}
+
+.book .row2 .text h5 {
+  margin-left: 1.5rem;
+}
+.book .row2 .icon img {
+  background: #f85a40;
+  font-size: 2rem;
+  padding: 18px;
+  border-radius: 50%;
+  margin-left: 1.7rem;
+}
+/* ========================= Ini Yang di File Galerry ======================== */
+.galerry h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.galerry .garis {
+  text-align: center;
+  border-bottom: 3px solid lightblue;
+  width:15%;
+  margin-bottom: 2rem;
+}
+.galerry .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galerry .img img {
+  width: 250px;
+}
+.galerry .col {
+  margin: 0.5rem;
+}
+
+/* ========================= Ini Yang di File Contact Us ======================== */
+.contact h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.contact .garis {
+  text-align: center;
+  border-bottom: 3px solid lightblue;
+  width:15%;
+}
+.contact .row{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+}
+.contact .row form .inputbox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact .row form .inputbox input {
+    padding: 14px 24px;
+    margin: 1rem 1rem;
+    font-size: 17px;
+    color: #333;
+    text-transform: none;
+    border: 1px solid #160f0f;
+    border-radius: .5rem;
+    width: 350px;
+}
+
+.contact .row form textarea {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 17px;
+  color: #333;
+  text-transform: none;
+  border: 1px solid #160f0f;
+  border-radius: .5rem;
+  width: 100%;
+}
+.contact .row form .button input {
+  padding: 12px 30px;
+  background-color: burlywood;
+  color: black;
+  border: none;
+  border-radius: 20px;
+}
+.contact .text .content{
+  display: flex;
+  margin-top: 1rem;
+}
+.contact .text .content img{
+  height: 19px;
+  margin-right: 5px;
+}
+
+.contact .text h2{
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+.content{
+  font-size: 1.1rem;
+}

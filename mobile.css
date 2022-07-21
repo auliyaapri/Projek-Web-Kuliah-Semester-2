@@ -1,0 +1,86 @@
+/* === MOBILE === */
+@media (max-width: 991px) {
+  .about .image img {
+    width: 100%;
+  }
+  .sevice .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .book .row .col {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .book .teks {
+    margin-left: -1.5rem;
+  }
+  .book .row .image img {
+    width: 100%;
+  }
+  .about .row .image img {
+    width: 100%;
+  }
+  .about .row2 .image img {
+    width: 100%;
+  }
+  .book .row2 .image img {
+    width: 100%;
+  }
+  /* Contact Us */
+  .contact .row form .inputbox input {
+    width: 100%;
+}
+
+}
+
+@media (max-width: 768px) {
+  #menu-bar {
+    display: initial;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.5s;
+  }
+  header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .header .navbar a {
+    margin: 2rem;
+    padding: .5rem;
+    display: block;
+    border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-left: 0.5rem solid blue;
+    background: burlywood;
+  }
+  .recipe .row2 {
+    display: flex;
+    justify-content: center;
+  }
+  .recipe .row2 p {
+    margin: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .recipe .row2 iframe {
+    width: 450px;
+    height: 300px;
+  }
+  .chef .row .col .img {
+    margin-left: 0;
+    margin-top: 2rem;
+    
+  }
+    /* Contact Us */
+    .contact .row form .inputbox input {
+      width: 100%;
+  }
+
+}
