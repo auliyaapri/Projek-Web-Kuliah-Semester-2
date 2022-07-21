@@ -1,4 +1,4 @@
-# Projek Web Kelas X SMK
+# Projek Web Kelas Kuliah
 
 Tugas Kuliah Kelompok Membuat Website dengan Tema Restoran
 
