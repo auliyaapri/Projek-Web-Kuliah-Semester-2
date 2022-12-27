@@ -2,7 +2,7 @@
 
 Tugas Kuliah Kelompok Membuat Website dengan Tema Restoran
 
-https://auliyaapriwiguna.github.io/millenium_resto/
+https://auliyaapri.github.io/Projek-Web-Kuliah-Semester-2/
 
 # Responsive Website
 
