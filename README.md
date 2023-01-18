@@ -10,5 +10,4 @@ https://auliyaapri.github.io/Projek-Web-Kuliah-Semester-2/
 ![github](https://user-images.githubusercontent.com/45688720/188249877-ac4be316-13d8-4f83-a069-558ed6f62d8e.png)
 
 # Dibuat dengan
-
-![phppppppppp](https://user-images.githubusercontent.com/45688720/213068061-24cfc805-f261-488a-a79b-a69d9fa3c802.png)
+![phppppppppp](https://user-images.githubusercontent.com/45688720/213185097-c15e6345-9066-4108-b82c-11dcee759a5e.png)
