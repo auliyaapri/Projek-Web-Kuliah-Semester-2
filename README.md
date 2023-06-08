@@ -6,9 +6,11 @@ Tugas Kuliah Kelompok Membuat Website dengan Tema Restoran
 https://auliyaapri.github.io/Projek-Web-Kuliah-Semester-2/
 
 # Responsive Website
-![github](https://user-images.githubusercontent.com/45688720/188249877-ac4be316-13d8-4f83-a069-558ed6f62d8e.png)
 
-## 📺 Watch Our Presentation
+
+## 📺 Watch Our Presentation!
+[Kopi Tutorial Thumbnail YouTube](https://github.com/auliyaapri/Projek-Web-Kuliah-Semester-2/assets/45688720/e716f300-255f-4ad2-81d9-dee6a6b4c208)
+
 https://www.youtube.com/watch?v=GyCali6EY48
 
 ## 🚀 Tech Stack Used
